@@ -5,3 +5,187 @@
     padding: o;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+
+button.header-button {
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.header-container {
+    position: relative;
+}
+
+.header-button-container {
+    position: absolute;
+    right: 0;
+}
+
+.button-size {
+    font-size: 1.1em;
+}
+
+#header {
+    height: 50px;
+}
+
+/* Main */
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.people-video {
+    position: relative;
+    width: 283px;
+    height: 150px;
+    margin-bottom: 9px;
+}
+
+
+.name-bar {
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    bottom: 0;
+    padding: 0 5px;
+    color: white;
+}
+
+#mancini{
+    background-image: url(../img/mancini.jpeg);
+    background-size: cover;
+}
+
+#donnarumma{
+    background-image: url(../img/donnarumma.jpg);
+    background-size: cover;
+}
+
+#dilorenzo{
+    background-image: url(../img/di\ lorenzo.jpg);
+    background-size: cover;
+}
+#chiellini{
+    background-image: url(../img/chiellini.jpg);
+    background-size: cover;
+}
+
+#bonucci{
+    background-image: url(../img/bonucci.jpg);
+    background-size: cover;
+}
+
+#emerson{
+    background-image: url(../img/emerson.jpg);
+    background-size: cover;
+}
+
+#barella{
+    background-image: url(../img/barella.jpg);
+    background-size: cover;
+}
+
+#jorginho{
+    background-image: url(../img/jorginho.jpg);
+    background-size: cover;
+}
+
+#verratti{
+    background-image: url(../img/verratti.jpg);
+    background-size: cover;
+}
+
+#chiesa{
+    background-image: url(../img/chiesa.jpg);
+    background-size: cover;
+}
+
+#immobile{
+    background-image: url(../img/immobile.jpg);
+    background-size: cover;
+}
+
+#insigne{
+    background-image: url(../img/insigne.jpg);
+    background-size: cover;
+}
+
+#acerbi{
+    background-image: url(../img/acerbi.jpg);
+    background-size: cover;
+}
+
+#bastoni{
+    background-image: url(../img/bastoni.jpg);
+    background-size: cover;
+}
+
+#belotti{
+    background-image: url(../img/belotti.jpeg);
+    background-size: cover;
+}
+
+#berardi{
+    background-image: url(../img/berardi.jpg);
+    background-size: cover;
+}
+
+#bernardeschi{
+    background-image: url(../img/bernardeschi.jpg);
+    background-size: cover;
+}
+
+#cristante{
+    background-image: url(../img/cristante.jpg);
+    background-size: cover;
+}
+
+#florenzi{
+    background-image: url(../img/florenzi.jpg);
+    background-size: cover;
+}
+
+#locatelli{
+    background-image: url(../img/locatelli.jpg);
+    background-size: cover;
+}
+
+#meret{
+    background-image: url(../img/meret.jpg);
+    background-size: cover;
+}
+
+#pessina{
+    background-image: url(../img/pessina.jpg);
+    background-size: cover;
+}
+
+#sirigu{
+    background-image: url(../img/sirigu.jpg);
+    background-size: cover;
+}
+
+#toloi{
+    background-image: url(../img/toloi.jpg);
+    background-size: cover;
+}
+
+#spinazzola{
+    background-image: url(../img/spinazzola.jpg);
+    background-size: cover;
+}
+
+#main {
+    margin: auto;
+    padding: 0 30px 50px 0;
+}
